@@ -1,0 +1,37 @@
+body {
+    background: radial-gradient(circle, rgba(125, 112, 101, 0.752) 0%, rgb(181, 173, 147) 100%);
+    color: rgb(112, 111, 107);
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    color: rgb(54, 53, 53);
+    text-decoration: none;
+}
+
+#center {
+    text-align: center;
+    margin-top: 400px;
+}
+
+/* codepen.io typewriter animation - https://codepen.io/blackfrom80s/pen/ogoxLw */
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid currentColor;
+
+  animation: typewriter 4s steps(30) 1s both,
+             blinkCursor 0.7s step-end infinite;
+}
+
+@keyframes typewriter {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blinkCursor {
+  50% { border-color: transparent; }
+}
+/* end */
