@@ -57,7 +57,7 @@ Note - Only use typography. Visuals created through CSS, using text only. HTML u
 
 ### Codepen.io
 
-- Typewriter Animation by Black from 80s - https://codepen.io/blackfrom80s/pen/ogoxLw  [Index/Home - Page 9]
+- Typewriter Animation by Black from 80s - https://codepen.io/blackfrom80s/pen/ogoxLw  [Index/Home, Page 2, 3, 4, 5, 6, 7, 8, 9]
 - Animated Text-Shadow by Erin E. Sullivan - https://codepen.io/erinesullivan/pen/ZMreqJ  [Page 2]
 - Shining Text Effect by Grohit- https://codepen.io/grohit/pen/mdJqEzK  [Page 3]
 - 5 Words Text Wave Animation by Qrac - https://codepen.io/qrac/pen/MRPJLB  [Page 5]
