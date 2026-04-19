@@ -86,7 +86,7 @@ a {
     animation: shine 5s linear infinite;
 }
 
-/* page 4 */
+/* page 4 styles*/
 .alguien {
     display: inline-block;
     transition: transform 8s ease;
@@ -97,7 +97,7 @@ a {
     transform: rotate(360deg) skew(9deg, 7deg) translate(100px, -100px);
 }
 
-/* page 5 */
+/* page 5 styles*/
 .llorar {
   display: inline-block;
   margin-top: 0.6em;
@@ -117,7 +117,7 @@ a {
 .llorar span:nth-of-type(5) { animation-delay: 0.4s; }
 .llorar span:nth-of-type(6) { animation-delay: 0.5s; }
 
-/* page 6 */
+/* page 6 styles*/
 .cantando {
     display: inline-block;
     color: rgb(186, 95, 72);
@@ -129,7 +129,7 @@ a {
     transform: skew(50deg, 0) scale(1) rotate(360deg);
 }
 
-/* page 7 */
+/* page 7 styles*/
 .que {
     display: inline-block;
     transition: 3s ease-out;
@@ -140,7 +140,7 @@ a {
     transform: rotate(360deg) scale(0.5);
 }
 
-/* page 8 */
+/* page 8 styles*/
 
 .cant {
     display: inline-block;
@@ -152,13 +152,13 @@ a {
     white-space: nowrap;
 }
 
-/* page 9 */
+/* page 9 styles*/
 
 .end {
     display: inline-block;
     font-size: 50px;
     font-weight: 700;
-    color: rgb(88, 63, 54);
+    color: rgb(80, 57, 49);
     transition: text-shadow 0.5s ease;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -215,6 +215,7 @@ a {
     display: inline-block;
 }
 
+/* Animated Text-Shadow by Erin E. Sullivan - https://codepen.io/erinesullivan/pen/ZMreqJ */
 @keyframes text-shadow {
     0% {  
         transform: translateY(0);
@@ -242,16 +243,19 @@ a {
     }
   }
 
+/* Shining Text Effect by Grohit- https://codepen.io/grohit/pen/mdJqEzK*/
 @keyframes shine {
   0% { background-position-x: -500%; }
   100% { background-position-x: 500%; }
 }
 
+/* 5 Words Text Wave Animation by Qrac - https://codepen.io/qrac/pen/MRPJLB */
 @keyframes wave-text {
   0%, 100% { transform: translateY(0em); }
   60%      { transform: translateY(-0.6em); }
 }
 
+/* Netflix Style Animation with CSS by Nooray Yemon- https://codepen.io/yemon/pen/BwOOWZ */
 @keyframes netflix_style {
   0% {
     text-shadow: 1px 1px #c07f84, 2px 2px #719883, 3px 3px #739fb3;
