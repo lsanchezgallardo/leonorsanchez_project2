@@ -1,0 +1,89 @@
+/* main style */
+body {
+    background: radial-gradient(circle, rgba(118, 167, 123, 0.752) 0%, rgb(218, 200, 141) 100%);
+    color: rgb(88, 63, 54);
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    color: rgb(66, 95, 107);
+    text-decoration: none;
+}
+
+#center {
+    text-align: center;
+    margin-top: 400px;
+}
+
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid currentColor;
+
+  animation: typewriter 4s steps(30) 1s both,
+             blinkCursor 0.7s step-end infinite;
+}
+
+
+/* page 8 style */
+.cant {
+    display: inline-block;
+    color: rgb(41, 123, 161);
+    font-size: 1.5em;
+    transition: 3s ease;
+    animation: netflix_style 3.5s infinite;
+    outline: none;
+    white-space: nowrap;
+}
+
+/* keyframes */ 
+/* netflix style snimation with css by nooray yemon- https://codepen.io/yemon/pen/BwOOWZ */
+@keyframes netflix_style {
+  0% {
+    text-shadow: 1px 1px #c07f84, 2px 2px #719883, 3px 3px #739fb3;
+    color: #373535;
+    transform: scale(1.5, 1.5);
+  }
+  10% {
+    text-shadow: 1px 1px #c07f84, 2px 2px #719883, 5px 5px #739fb3;
+    color: #302f2f;
+    transform: scale(1.5, 1.5);
+  }
+  20% {    
+    color: #3a3839;
+    text-shadow: none;
+    transform: scale(1.1, 1.1);
+  }
+  80% {
+    opacity: 0;    
+    color: #3f3f3e;
+    transform: scale(0.85, 0.9);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* codepen.io typewriter animation - https://codepen.io/blackfrom80s/pen/ogoxLw */
+@keyframes typewriter {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blinkCursor {
+  50% { border-color: transparent; }
+}
+
+/* separate */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

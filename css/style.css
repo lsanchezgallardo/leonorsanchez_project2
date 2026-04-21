@@ -11,6 +11,7 @@ body {
 a {
     color: rgb(66, 95, 107);
     text-decoration: none;
+    text-shadow: 0px 0px 50px rgba(48, 94, 37, 0.8);
 }
 
 #center {
@@ -27,8 +28,20 @@ a {
              blinkCursor 0.7s step-end infinite;
 }
 
+/* keyframes */ 
+/* codepen.io typewriter animation - https://codepen.io/blackfrom80s/pen/ogoxLw */
+@keyframes typewriter {
+  from { width: 0; }
+  to { width: 100%; }
+}
 
-/* page 1 styles */
+@keyframes blinkCursor {
+  50% { border-color: transparent; }
+}
+
+
+
+/* page 1 styles 
 .no {
     display: inline-block;
     color: rgb(66, 82, 62);
@@ -48,7 +61,7 @@ a {
   animation: dropDown 15s ease forwards;
 }
 
-/* page 2 styles*/
+/* page 2 styles
 .hay {
     font-size: 50px;
     font-weight: 700;
@@ -68,7 +81,7 @@ a {
   animation-delay: 5s; 
 }
 
-/* page 3 styles */
+/* page 3 styles 
 .es {
     display: inline-block;
     text-decoration: none;
@@ -86,7 +99,7 @@ a {
     animation: shine 5s linear infinite;
 }
 
-/* page 4 styles*/
+/* page 4 styles
 .alguien {
     display: inline-block;
     transition: transform 8s ease;
@@ -97,7 +110,7 @@ a {
     transform: rotate(360deg) skew(9deg, 7deg) translate(100px, -100px);
 }
 
-/* page 5 styles*/
+/* page 5 styles
 .llorar {
   display: inline-block;
   margin-top: 0.6em;
@@ -117,7 +130,7 @@ a {
 .llorar span:nth-of-type(5) { animation-delay: 0.4s; }
 .llorar span:nth-of-type(6) { animation-delay: 0.5s; }
 
-/* page 6 styles*/
+/* page 6 styles
 .cantando {
     display: inline-block;
     color: rgb(186, 95, 72);
@@ -129,7 +142,7 @@ a {
     transform: skew(50deg, 0) scale(1) rotate(360deg);
 }
 
-/* page 7 styles*/
+/* page 7 styles
 .que {
     display: inline-block;
     transition: 3s ease-out;
@@ -140,7 +153,7 @@ a {
     transform: rotate(360deg) scale(0.5);
 }
 
-/* page 8 styles*/
+/* page 8 styles
 
 .cant {
     display: inline-block;
@@ -152,7 +165,7 @@ a {
     white-space: nowrap;
 }
 
-/* page 9 styles*/
+/* page 9 styles
 
 .end {
     display: inline-block;
@@ -172,16 +185,7 @@ a {
 
 /* keyframes */
 
-/* codepen.io typewriter animation - https://codepen.io/blackfrom80s/pen/ogoxLw */
-@keyframes typewriter {
-  from { width: 0; }
-  to { width: 100%; }
-}
-
-@keyframes blinkCursor {
-  50% { border-color: transparent; }
-}
-
+/* keyframes *
 @keyframes dropDown {
   from {
     transform: translateY(0);
@@ -209,13 +213,13 @@ a {
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* codepen.io animated text-shadow - https://codepen.io/erinesullivan/pen/ZMreqJ */
+/* codepen.io animated text-shadow - https://codepen.io/erinesullivan/pen/ZMreqJ 
 .hay:hover {
     animation: text-shadow 1.5s ease-in-out infinite;
     display: inline-block;
 }
 
-/* Animated Text-Shadow by Erin E. Sullivan - https://codepen.io/erinesullivan/pen/ZMreqJ */
+/* Animated Text-Shadow by Erin E. Sullivan - https://codepen.io/erinesullivan/pen/ZMreqJ 
 @keyframes text-shadow {
     0% {  
         transform: translateY(0);
@@ -243,19 +247,19 @@ a {
     }
   }
 
-/* Shining Text Effect by Grohit- https://codepen.io/grohit/pen/mdJqEzK*/
+/* Shining Text Effect by Grohit- https://codepen.io/grohit/pen/mdJqEzK
 @keyframes shine {
   0% { background-position-x: -500%; }
   100% { background-position-x: 500%; }
 }
 
-/* 5 Words Text Wave Animation by Qrac - https://codepen.io/qrac/pen/MRPJLB */
+/* 5 Words Text Wave Animation by Qrac - https://codepen.io/qrac/pen/MRPJLB 
 @keyframes wave-text {
   0%, 100% { transform: translateY(0em); }
   60%      { transform: translateY(-0.6em); }
 }
 
-/* Netflix Style Animation with CSS by Nooray Yemon- https://codepen.io/yemon/pen/BwOOWZ */
+/* Netflix Style Animation with CSS by Nooray Yemon- https://codepen.io/yemon/pen/BwOOWZ 
 @keyframes netflix_style {
   0% {
     text-shadow: 1px 1px #c07f84, 2px 2px #719883, 3px 3px #739fb3;

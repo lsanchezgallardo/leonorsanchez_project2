@@ -1,0 +1,70 @@
+/* main style */
+body {
+    background: radial-gradient(circle, rgba(118, 167, 123, 0.752) 0%, rgb(218, 200, 141) 100%);
+    color: rgb(88, 63, 54);
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    color: rgb(66, 95, 107);
+    text-decoration: none;
+}
+
+#center {
+    text-align: center;
+    margin-top: 400px;
+}
+
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid currentColor;
+
+  animation: typewriter 4s steps(30) 1s both,
+             blinkCursor 0.7s step-end infinite;
+}
+
+/* page 1 style */
+.no {
+    display: inline-block;
+    color: rgb(66, 82, 62);
+    animation: dropFromTop 5s ease-out backwards;
+    text-shadow: 0 0 10px rgba(123, 162, 95, 0.8), 
+                 0 0 20px rgba(239, 239, 130, 0.774);
+}
+
+.no:hover {
+  transform: scale(3) rotate(25deg);
+  transition: transform 5s ease;
+}
+
+.drop {
+  color: rgb(56, 54, 54);
+  display: inline-block;
+  animation: dropDown 15s ease forwards;
+}
+
+/* keyframes */
+@keyframes dropDown {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}
+
+@keyframes dropFromTop {
+    from {
+        transform: translate(-100vh)
+        
+    }
+    to {
+        transform: translate(0)
+        
+    }
+}
